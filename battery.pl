@@ -51,7 +51,6 @@ sub is_charging() {
 	    if ($ac_adapt =~ /: ([\w-]+)/) {
 		     $ac_adapt = $1;
 
-         print "reached here";
 		     if ($ac_adapt eq 'on-line') {
 			      return 1;
 		     } elsif ($ac_adapt eq 'off-line') {
